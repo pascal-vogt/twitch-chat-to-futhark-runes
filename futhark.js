@@ -86,7 +86,7 @@
     }
 
     function runify(text) {
-      var runes = 'ᚨᛒᚲᛞᛖᚠᚷᚺᛇᚲᛚᛗᚾᛟᛈᛩᚱᛋᛏᚢᚹᚹᚲᛋᛃᛋ';
+      var runes = 'ᚨᛒᚲᛞᛖᚠᚷᚺᛁᛃᚲᛚᛗᚾᛟᛈᛩᚱᛋᛏᚢᚡᚹᛪᛃᛎ';
       return text.replace(/[a-zA-Z]/g, function (substring) {
         var index = substring.toUpperCase().charCodeAt(0) - 65;
         return runes.charAt(index);
