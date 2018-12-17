@@ -1,0 +1,3 @@
+var BOT_USERNAME = ''; // example: 'mybot'
+var BOT_OAUTH_TOKEN = ''; // example: 'oauth:8dg8s80h7s70dh0ss07' get one from https://twitchapps.com/tmi/
+var CHANNEL = ''; // example: ''#mystreamername'
